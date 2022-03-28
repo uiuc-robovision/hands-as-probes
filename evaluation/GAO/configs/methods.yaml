@@ -1,0 +1,5 @@
+imsize: !!python/tuple [256, 128]
+methods:
+  # DO NOT USE "random" IN THE KEY
+  random_baseline: None
+  # 'Your Method': PATH_TO_PREDICTIONS

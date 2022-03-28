@@ -1,0 +1,608 @@
+dilation_list: [0, 20]
+factor: 5 # Downscaling Factor
+methods:
+    # 'MaskRCNN': "/home/mohit/VOS/Detectron/detectron2/demo/EPIC"
+    'MaskRCNN': 
+        path: "./predictions/MaskRCNN/output"
+        blurring: False
+
+    'SegNet50_EP55csfixed_eqsampl_nohomog_300': 
+        path: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark/SegNetDeeper50_EP55csfixed_eqsampl_nohomog_300"
+        blurring: True
+        bradius: 25 # Blurring Radius
+        eval_with_MaskRCNN: True
+        MaskRCNN_weight: 2
+
+    # 'SegNet50_EP55csfixed_eqsampl_nohomog_300_fast':
+    #   path: "/home/mohit/datasets/epic_fast_benchmark/SegNetDeeper50_EP55csfixed_eqsampl_nohomog_300"
+    #   blurring: True
+    #   bradius: 25 # Blurring Radius
+    #   eval_with_MaskRCNN: True
+    #   MaskRCNN_weight: 2
+
+    # 'deepgaze2_fix': 
+    #   path: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark/deepgaze2_fixed"
+    #   blurring: False
+    #   eval_with_MaskRCNN: True
+    #   MaskRCNN_weight: 1
+
+    # 'MaskRCNN+deepgaze2_fix':
+    #   path: "/home/mohit/VOS/interaction-hotspots/Generation/our-benchmark/combined/MaskRCNN_deepgaze2_fix"
+    #   blurring: False
+
+    # 'MaskRCNN+SegNet50_EP55csfixed_eqsampl_nohomog_300': 
+    #   path: "/home/mohit/VOS/interaction-hotspots/Generation/our-benchmark/combined/MaskRCNN_SegNet50_EP55csfixed_eqsampl_nohomog_300"
+    #   blurring: False
+
+    #   'SegNet_nosup_seed0_300': 
+    #       path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_nosup_seed0_300"
+    #       blurring: True
+    #       bradius: 25 # Blurring Radius
+    #       eval_with_MaskRCNN: True
+    #       MaskRCNN_weight: 2
+    #   'SegNet_nosup_seed0_350': 
+    #       path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_nosup_seed0_350"
+    #       blurring: True
+    #       bradius: 25 # Blurring Radius
+    #       eval_with_MaskRCNN: True
+    #       MaskRCNN_weight: 2
+    #   'SegNet_nosup_seed0_400': 
+    #       path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_nosup_seed0_400"
+    #       blurring: True
+    #       bradius: 25 # Blurring Radius
+    #       eval_with_MaskRCNN: True
+    #       MaskRCNN_weight: 2
+
+    #   'SegNet_nosup_seed100_300': 
+    #       path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_nosup_seed100_300"
+    #       blurring: True
+    #       bradius: 25 # Blurring Radius
+    #       eval_with_MaskRCNN: True
+    #       MaskRCNN_weight: 2
+    #   'SegNet_nosup_seed100_350': 
+    #       path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_nosup_seed100_350"
+    #       blurring: True
+    #       bradius: 25 # Blurring Radius
+    #       eval_with_MaskRCNN: True
+    #       MaskRCNN_weight: 2
+    #   'SegNet_nosup_seed100_400': 
+    #       path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_nosup_seed100_400"
+    #       blurring: True
+    #       bradius: 25 # Blurring Radius
+    #       eval_with_MaskRCNN: True
+    #       MaskRCNN_weight: 2
+
+    #   'SegNet_nosup_seed200_300': 
+    #       path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_nosup_seed200_300"
+    #       blurring: True
+    #       bradius: 25 # Blurring Radius
+    #       eval_with_MaskRCNN: True
+    #       MaskRCNN_weight: 2
+    #   'SegNet_nosup_seed200_350': 
+    #       path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_nosup_seed200_350"
+    #       blurring: True
+    #       bradius: 25 # Blurring Radius
+    #       eval_with_MaskRCNN: True
+    #       MaskRCNN_weight: 2
+    #   'SegNet_nosup_seed200_400': 
+    #       path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_nosup_seed200_400"
+    #       blurring: True
+    #       bradius: 25 # Blurring Radius
+    #       eval_with_MaskRCNN: True
+    #       MaskRCNN_weight: 2
+
+    'SegNet_hands_seed0_300': 
+        path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_seed0_300"
+        blurring: True
+        bradius: 25 # Blurring Radius
+        eval_with_MaskRCNN: True
+        MaskRCNN_weight: 2
+    # 'SegNet_hands_seed0_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_seed0_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_seed0_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_seed0_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    'SegNet_hands_seed100_300': 
+        path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_seed100_300"
+        blurring: True
+        bradius: 25 # Blurring Radius
+        eval_with_MaskRCNN: True
+        MaskRCNN_weight: 2
+    # 'SegNet_hands_seed100_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_seed100_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_seed100_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_seed100_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_seed200_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_seed200_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_seed200_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_seed200_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    'SegNet_hands_seed200_400': 
+        path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_seed200_400"
+        blurring: True
+        bradius: 25 # Blurring Radius
+        eval_with_MaskRCNN: True
+        MaskRCNN_weight: 2
+
+
+    # 'SegNet_hands_nocontact_seed0_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nocontact_seed0_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nocontact_seed0_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nocontact_seed0_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nocontact_seed0_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nocontact_seed0_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_nocontact_seed100_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nocontact_seed100_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nocontact_seed100_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nocontact_seed100_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nocontact_seed100_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nocontact_seed100_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_nocontact_seed200_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nocontact_seed200_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nocontact_seed200_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nocontact_seed200_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nocontact_seed200_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nocontact_seed200_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_noobject_seed0_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_noobject_seed0_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_noobject_seed0_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_noobject_seed0_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_noobject_seed0_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_noobject_seed0_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_noobject_seed100_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_noobject_seed100_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_noobject_seed100_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_noobject_seed100_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_noobject_seed100_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_noobject_seed100_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_noobject_seed200_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_noobject_seed200_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_noobject_seed200_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_noobject_seed200_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_noobject_seed200_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_noobject_seed200_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_nomask_seed0_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nomask_seed0_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nomask_seed0_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nomask_seed0_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nomask_seed0_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nomask_seed0_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_nomask_seed100_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nomask_seed100_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nomask_seed100_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nomask_seed100_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nomask_seed100_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nomask_seed100_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_nomask_seed200_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nomask_seed200_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nomask_seed200_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nomask_seed200_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nomask_seed200_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nomask_seed200_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_center_seed0_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_center_seed0_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_center_seed0_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_center_seed0_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_center_seed0_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_center_seed0_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_center_seed100_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_center_seed100_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_center_seed100_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_center_seed100_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_center_seed100_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_center_seed100_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_center_seed200_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_center_seed200_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_center_seed200_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_center_seed200_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_center_seed200_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_center_seed200_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_segfix_seed0_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_segfix_seed0_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_segfix_seed0_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_segfix_seed0_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_segfix_seed0_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_segfix_seed0_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_segfix_seed100_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_segfix_seed100_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_segfix_seed100_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_segfix_seed100_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_segfix_seed100_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_segfix_seed100_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_segfix_seed200_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_segfix_seed200_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_segfix_seed200_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_segfix_seed200_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_segfix_seed200_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_segfix_seed200_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    
+    # 'SegNet_hands_symmnolossmask_seed0_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmnolossmask_seed0_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_symmnolossmask_seed0_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmnolossmask_seed0_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_symmnolossmask_seed0_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmnolossmask_seed0_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_symmnolossmask_seed100_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmnolossmask_seed100_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_symmnolossmask_seed100_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmnolossmask_seed100_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_symmnolossmask_seed100_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmnolossmask_seed100_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_symmnolossmask_seed200_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmnolossmask_seed200_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_symmnolossmask_seed200_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmnolossmask_seed200_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_symmnolossmask_seed200_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmnolossmask_seed200_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_symmwlossmask_seed0_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmwlossmask_seed0_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_symmwlossmask_seed0_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmwlossmask_seed0_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_symmwlossmask_seed0_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmwlossmask_seed0_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_symmwlossmask_seed100_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmwlossmask_seed100_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_symmwlossmask_seed100_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmwlossmask_seed100_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_symmwlossmask_seed100_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmwlossmask_seed100_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_symmwlossmask_seed200_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmwlossmask_seed200_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_symmwlossmask_seed200_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmwlossmask_seed200_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_symmwlossmask_seed200_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_symmwlossmask_seed200_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    
+    # 'SegNet_hands_nosup_seed0_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nosup_seed0_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nosup_seed0_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nosup_seed0_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nosup_seed0_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nosup_seed0_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_nosup_seed100_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nosup_seed100_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nosup_seed100_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nosup_seed100_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nosup_seed100_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nosup_seed100_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+    # 'SegNet_hands_nosup_seed200_300': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nosup_seed200_300"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nosup_seed200_350': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nosup_seed200_350"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+    # 'SegNet_hands_nosup_seed200_400': 
+    #     path: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/epic_benchmark/SegNet_hands_nosup_seed200_400"
+    #     blurring: True
+    #     bradius: 25 # Blurring Radius
+    #     eval_with_MaskRCNN: True
+    #     MaskRCNN_weight: 2
+
+

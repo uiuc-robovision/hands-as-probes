@@ -1,0 +1,44 @@
+model:
+  backbone: "resnet50"
+  avg_output: True
+  is_sym: False # If the encoder and decoder are symmetric
+
+data:
+  bs: 64
+  nw: 16
+  imsize: 128
+  hand_img_size: 128
+  contact: True # Default True
+  EPIC55_only: True
+  data_dir: "/home/mohit/EPIC-KITCHENS"
+  annot_dir: /home/mohit/VOS/epic-affordances/ACP/datasets/ACP_metadata
+  hand_seg_dir: /data02/mohit/VOS/video-hand-grasps/src_segmentation/inferred_masks/epic/SegNetFCNMultiHead_Egohandsfull
+
+training:
+  lr: 0.0001
+  decay: 0.0001
+  num_epochs: 400
+  num_batches: 256
+  save_after: 5 # num_valsteps
+  replace: False
+  log_interval: 1
+  ckpt_interval: 5
+  resume: False
+  pos_weight: 4
+  flips: True # Default True
+  motionblur: True # Default True
+  negres_fixed: False # Default False
+  hand_mask: True # Default True
+  obj_mask: False # Default True
+  obj_sample: False # Default True
+  obj_thresh: 0.8 # Default 0.8
+  length_based_sampling: True # Default True
+  masking: True # Default True
+  bbshift: 0. # Default 0.0
+  mask_location: bc # Default bc
+  use_class_loss: True # Default True
+  hand_ckpt: /home/mohit/VOS/epic-affordances/ACP/models/GUN-71/GUN71_tsc_seed0_checkpoint_27.pth
+  bottomkclass: 15 # Default 15
+  topkclass: 1 # Default 1
+  use_no_hands: False # Always set to False!!!!
+  use_hand_segmask: False # Default False

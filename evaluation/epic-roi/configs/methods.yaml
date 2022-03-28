@@ -1,0 +1,23 @@
+dilation_list: [0, 20]
+factor: 5 # Downscaling Factor
+methods:
+    # 'MaskRCNN': "/home/mohit/VOS/Detectron/detectron2/demo/EPIC"
+    'MaskRCNN': 
+        path: "./predictions/MaskRCNN/output"
+        blurring: False
+    'deepgaze2': 
+      path: "./predictions/deepgaze2/output"
+      blurring: False
+      eval_with_MaskRCNN: True
+      MaskRCNN_weight: 1
+    'ACP': 
+      path: "./predictions/ACP/output"
+      blurring: True
+      bradius: 25 # Blurring Radius
+      eval_with_MaskRCNN: True
+      MaskRCNN_weight: 2
+    # 'Your Method':
+      # path: PATH_TO_PREDICTIONS
+      # blurring: False # Can be True or False
+      # eval_with_MaskRCNN: True # Evaluate after combination with MaskRCNN
+      # MaskRCNN_weight: 1 # The weight for MaskRCNN

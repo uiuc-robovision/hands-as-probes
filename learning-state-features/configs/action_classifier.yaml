@@ -1,0 +1,17 @@
+model:
+  num_states: 2
+  num_objects: 64
+  abmil_classes: 32
+  emb_size: 512
+data:
+  bs: 16
+  nw: 8
+  suffix: hoa
+
+training:
+  lr: 0.0001
+  num_epochs: 20
+  num_batches: 512 
+  log_interval: 1
+  ckpt_interval: 1
+  resume: False

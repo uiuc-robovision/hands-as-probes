@@ -1,0 +1,275 @@
+imsize: !!python/tuple [256, 128]
+methods:
+  # DO NOT USE "random" IN THE KEY
+  random_baseline: None
+  
+  SegNetDeeper50_EP55ck_twoheads_SimCLRwGUN71wdt1b15_33class_50: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/BACK_SegNetDeeper50_EP55ck_twoheads_SimCLRwGUN71wdt1b15_33class_50_80"
+
+  # SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed0_50: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed0_50_80"
+  # SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed0_75: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed0_75_80"
+  # SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed0_100: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed0_100_80"
+  # SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed100_50: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed100_50_80"
+  # SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed100_75: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed100_75_80"
+  # SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed100_100: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed100_100_80"
+  # SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed200_50: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed200_50_80"
+  # SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed200_75: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed200_75_80"
+  # SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed200_100: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNetDeeper50_EP55csfixed_eqsampl_nohomog_twoheads_inpoutmatch_nolmask_seed200_100_80"
+
+  # SegNet_hands_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seed0_50_80"
+  # SegNet_hands_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seed0_75_80"
+  # SegNet_hands_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seed0_100_80"
+  # SegNet_hands_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seed100_50_80"
+  # SegNet_hands_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seed100_75_80"
+  # SegNet_hands_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seed100_100_80"
+  # SegNet_hands_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seed200_50_80"
+  # SegNet_hands_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seed200_75_80"
+  # SegNet_hands_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seed200_100_80"
+
+  # SegNet_hands_nosup_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nosup_seed0_50_80"
+  # SegNet_hands_nosup_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nosup_seed0_75_80"
+  # SegNet_hands_nosup_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nosup_seed0_100_80"
+  # SegNet_hands_nosup_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nosup_seed100_50_80"
+  # SegNet_hands_nosup_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nosup_seed100_75_80"
+  # SegNet_hands_nosup_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nosup_seed100_100_80"
+  # SegNet_hands_nosup_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nosup_seed200_50_80"
+  # SegNet_hands_nosup_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nosup_seed200_75_80"
+  # SegNet_hands_nosup_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nosup_seed200_100_80"
+
+  # SegNet_hands_seg_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seg_seed0_50_80"
+  # SegNet_hands_seg_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seg_seed0_75_80"
+  # SegNet_hands_seg_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seg_seed0_100_80"
+  # SegNet_hands_seg_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seg_seed100_50_80"
+  # SegNet_hands_seg_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seg_seed100_75_80"
+  # SegNet_hands_seg_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seg_seed100_100_80"
+  # SegNet_hands_seg_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seg_seed200_50_80"
+  # SegNet_hands_seg_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seg_seed200_75_80"
+  # SegNet_hands_seg_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_seg_seed200_100_80"
+
+  # SegNet_hands_segfix_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_segfix_seed0_50_80"
+  # SegNet_hands_segfix_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_segfix_seed0_75_80"
+  # SegNet_hands_segfix_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_segfix_seed0_100_80"
+  # SegNet_hands_segfix_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_segfix_seed100_50_80"
+  # SegNet_hands_segfix_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_segfix_seed100_75_80"
+  # SegNet_hands_segfix_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_segfix_seed100_100_80"
+  # SegNet_hands_segfix_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_segfix_seed200_50_80"
+  # SegNet_hands_segfix_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_segfix_seed200_75_80"
+  # SegNet_hands_segfix_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_segfix_seed200_100_80"
+
+  # SegNet_hands_resGUN71_reprod_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_reprod_seed0_50_80"
+  # SegNet_hands_resGUN71_reprod_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_reprod_seed0_75_80"
+  # SegNet_hands_resGUN71_reprod_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_reprod_seed0_100_80"
+  # SegNet_hands_resGUN71_reprod_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_reprod_seed100_50_80"
+  # SegNet_hands_resGUN71_reprod_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_reprod_seed100_75_80"
+  # SegNet_hands_resGUN71_reprod_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_reprod_seed100_100_80"
+  # SegNet_hands_resGUN71_reprod_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_reprod_seed200_50_80"
+  # SegNet_hands_resGUN71_reprod_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_reprod_seed200_75_80"
+  # SegNet_hands_resGUN71_reprod_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_reprod_seed200_100_80"
+
+  # SegNet_hands_resGUN71_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_seed0_50_80"
+  # SegNet_hands_resGUN71_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_seed0_75_80"
+  # SegNet_hands_resGUN71_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_seed0_100_80"
+  # SegNet_hands_resGUN71_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_seed100_50_80"
+  # SegNet_hands_resGUN71_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_seed100_75_80"
+  # SegNet_hands_resGUN71_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_seed100_100_80"
+  # SegNet_hands_resGUN71_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_seed200_50_80"
+  # SegNet_hands_resGUN71_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_seed200_75_80"
+  # SegNet_hands_resGUN71_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_resGUN71_seed200_100_80"
+
+  
+  # SegNet_hands_tsc_w4_seed0_25: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc_w4_seed0_25_80"
+  # SegNet_hands_tsc_w4_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc_w4_seed0_50_80"
+  # SegNet_hands_tsc_w4_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc_w4_seed0_75_80"
+  # SegNet_hands_tsc_w4_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc_w4_seed0_100_80"
+
+  # SegNet_hands_tsc_w4_ckpt15_seed0_25: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc_w4_ckpt15_seed0_25_80"
+  # SegNet_hands_tsc_w4_ckpt15_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc_w4_ckpt15_seed0_50_80"
+  # SegNet_hands_tsc_w4_ckpt15_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc_w4_ckpt15_seed0_75_80"
+  # SegNet_hands_tsc_w4_ckpt15_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc_w4_ckpt15_seed0_100_80"
+
+  # SegNet_hands_tsc2_cls1_shuffle_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc2_cls1_shuffle_seed0_50_80"
+  # SegNet_hands_tsc2_cls1_shuffle_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc2_cls1_shuffle_seed0_75_80"
+  # SegNet_hands_tsc2_cls1_shuffle_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc2_cls1_shuffle_seed0_100_80"
+
+  # SegNet_hands_tsc2_cls1_ckpt24_shuffle_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc2_cls1_ckpt24_shuffle_seed0_50_80"
+  # SegNet_hands_tsc2_cls1_ckpt24_shuffle_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc2_cls1_ckpt24_shuffle_seed0_75_80"
+  # SegNet_hands_tsc2_cls1_ckpt24_shuffle_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc2_cls1_ckpt24_shuffle_seed0_100_80"
+
+  # SegNet_hands_tsc1_cls1_numcls33_ckpt27_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_numcls33_ckpt27_seed0_50_80"
+  # SegNet_hands_tsc1_cls1_numcls33_ckpt27_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_numcls33_ckpt27_seed0_75_80"
+  # SegNet_hands_tsc1_cls1_numcls33_ckpt27_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_numcls33_ckpt27_seed0_100_80"
+  
+  # SegNet_hands_tsc1_cls1_fixtf_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_seed0_50_80"
+  # SegNet_hands_tsc1_cls1_fixtf_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_seed0_75_80"
+  # SegNet_hands_tsc1_cls1_fixtf_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_seed0_100_80"
+
+  # SegNet_hands_filttracksseed0_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_filttracksseed0_seed100_50_80"
+  # SegNet_hands_filttracksseed0_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_filttracksseed0_seed100_75_80"
+  # SegNet_hands_filttracksseed0_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_filttracksseed0_seed100_100_80"
+  
+  # SegNet_hands_filttracksseed0_shuffle_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_filttracksseed0_shuffle_seed100_50_80"
+  # SegNet_hands_filttracksseed0_shuffle_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_filttracksseed0_shuffle_seed100_75_80"
+  # SegNet_hands_filttracksseed0_shuffle_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_filttracksseed0_shuffle_seed100_100_80"
+
+  # SegNet_hands_filttracksseed0_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_filttracksseed0_seed200_50_80"
+  # SegNet_hands_filttracksseed0_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_filttracksseed0_seed200_75_80"
+  # SegNet_hands_filttracksseed0_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_filttracksseed0_seed200_100_80"
+
+  # SegNet_hands_nomask_filttracksseed0_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_filttracksseed0_seed0_50_80"
+  # SegNet_hands_nomask_filttracksseed0_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_filttracksseed0_seed0_75_80"
+  # SegNet_hands_nomask_filttracksseed0_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_filttracksseed0_seed0_100_80"
+
+  # SegNet_hands_nomask_filttracksseed0_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_filttracksseed0_seed100_50_80"
+  # SegNet_hands_nomask_filttracksseed0_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_filttracksseed0_seed100_75_80"
+  # SegNet_hands_nomask_filttracksseed0_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_filttracksseed0_seed100_100_80"
+
+  # SegNet_hands_nomask_filttracksseed0_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_filttracksseed0_seed200_50_80"
+  # SegNet_hands_nomask_filttracksseed0_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_filttracksseed0_seed200_75_80"
+  # SegNet_hands_nomask_filttracksseed0_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_filttracksseed0_seed200_100_80"
+
+  # SegNet_hands_nomask_simclrwgun71nosup_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_simclrwgun71nosup_seed0_50_80"
+  # SegNet_hands_nomask_simclrwgun71nosup_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_simclrwgun71nosup_seed0_75_80"
+  # SegNet_hands_nomask_simclrwgun71nosup_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_simclrwgun71nosup_seed0_100_80"
+
+  # SegNet_hands_nomask_simclrwgun71nosup_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_simclrwgun71nosup_seed100_50_80"
+  # SegNet_hands_nomask_simclrwgun71nosup_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_simclrwgun71nosup_seed100_75_80"
+  # SegNet_hands_nomask_simclrwgun71nosup_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_simclrwgun71nosup_seed100_100_80"
+
+  # SegNet_hands_nomask_simclrwgun71nosup_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_simclrwgun71nosup_seed200_50_80"
+  # SegNet_hands_nomask_simclrwgun71nosup_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_simclrwgun71nosup_seed200_75_80"
+  # SegNet_hands_nomask_simclrwgun71nosup_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_simclrwgun71nosup_seed200_100_80"
+
+  # SegNet_hands_simclrwgun71nosup_ckpt24_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_ckpt24_seed0_50_80"
+  # SegNet_hands_simclrwgun71nosup_ckpt24_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_ckpt24_seed0_75_80"
+  # SegNet_hands_simclrwgun71nosup_ckpt24_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_ckpt24_seed0_100_80"
+
+  # SegNet_hands_simclrwgun71nosup_ckpt27_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_ckpt27_seed0_50_80"
+  # SegNet_hands_simclrwgun71nosup_ckpt27_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_ckpt27_seed0_75_80"
+  # SegNet_hands_simclrwgun71nosup_ckpt27_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_ckpt27_seed0_100_80"
+
+  # SegNet_hands_simclrwgun71nosup_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_seed0_50_80"
+  # SegNet_hands_simclrwgun71nosup_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_seed0_75_80"
+  # SegNet_hands_simclrwgun71nosup_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_seed0_100_80"
+
+  # SegNet_hands_simclrwgun71nosup_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_seed100_50_80"
+  # SegNet_hands_simclrwgun71nosup_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_seed100_75_80"
+  # SegNet_hands_simclrwgun71nosup_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_seed100_100_80"
+
+  # SegNet_hands_simclrwgun71nosup_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_seed200_50_80"
+  # SegNet_hands_simclrwgun71nosup_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_seed200_75_80"
+  # SegNet_hands_simclrwgun71nosup_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_simclrwgun71nosup_seed100_100_80"
+
+  ################################
+
+  # SegNet_hands_tsc1_cls1_fixtfseed100_ckpt30_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtfseed100_ckpt30_seed0_50_80"
+  # SegNet_hands_tsc1_cls1_fixtfseed100_ckpt30_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtfseed100_ckpt30_seed0_75_80"
+  # SegNet_hands_tsc1_cls1_fixtfseed100_ckpt30_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtfseed100_ckpt30_seed0_100_80"
+
+  # SegNet_hands_tsc1_cls1_fixtf_alltracks_seed0_25: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_alltracks_seed0_25_80"
+  # SegNet_hands_tsc1_cls1_fixtf_alltracks_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_alltracks_seed0_50_80"
+  # SegNet_hands_tsc1_cls1_fixtf_alltracks_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_alltracks_seed0_75_80"
+  # SegNet_hands_tsc1_cls1_fixtf_alltracks_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_alltracks_seed0_100_80"
+
+  # SegNet_hands_tsc1_cls1_fixtfseed200_ckpt27_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtfseed200_ckpt27_seed0_50_80"
+  # SegNet_hands_tsc1_cls1_fixtfseed200_ckpt27_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtfseed200_ckpt27_seed0_75_80"
+  # SegNet_hands_tsc1_cls1_fixtfseed200_ckpt27_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtfseed200_ckpt27_seed0_100_80"
+
+  # SegNet_hands_tsc1_cls1_fixtfseed200_ckpt33_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtfseed200_ckpt33_seed0_50_80"
+  # SegNet_hands_tsc1_cls1_fixtfseed200_ckpt33_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtfseed200_ckpt33_seed0_75_80"
+  # SegNet_hands_tsc1_cls1_fixtfseed200_ckpt33_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtfseed200_ckpt33_seed0_100_80"
+
+  # SegNet_hands_tsc1_cls1_fixtf_alltracksseed100_ckpt30_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_alltracksseed100_ckpt30_seed0_50_80"
+  # SegNet_hands_tsc1_cls1_fixtf_alltracksseed100_ckpt30_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_alltracksseed100_ckpt30_seed0_75_80"
+  # SegNet_hands_tsc1_cls1_fixtf_alltracksseed100_ckpt30_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_alltracksseed100_ckpt30_seed0_100_80"
+
+  # SegNet_hands_tsc1_cls1_fixtf_alltracksseed100_ckpt21_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_alltracksseed100_ckpt21_seed0_50_80"
+  # SegNet_hands_tsc1_cls1_fixtf_alltracksseed100_ckpt21_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_alltracksseed100_ckpt21_seed0_75_80"
+  # SegNet_hands_tsc1_cls1_fixtf_alltracksseed100_ckpt21_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc1_cls1_fixtf_alltracksseed100_ckpt21_seed0_100_80"
+
+  # SegNet_hands_nomask_alltracksseed100ckpt21_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_alltracksseed100ckpt21_seed0_50_80"
+  # SegNet_hands_nomask_alltracksseed100ckpt21_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_alltracksseed100ckpt21_seed0_75_80"
+  # SegNet_hands_nomask_alltracksseed100ckpt21_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_alltracksseed100ckpt21_seed0_100_80"
+
+  # SegNet_hands_alltracksseed100ckpt21_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_alltracksseed100ckpt21_seed100_50_80"
+  # SegNet_hands_alltracksseed100ckpt21_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_alltracksseed100ckpt21_seed100_75_80"
+  # SegNet_hands_alltracksseed100ckpt21_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_alltracksseed100ckpt21_seed100_100_80"
+
+  # SegNet_hands_alltracksseed100ckpt21_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_alltracksseed100ckpt21_seed200_50_80"
+  # SegNet_hands_alltracksseed100ckpt21_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_alltracksseed100ckpt21_seed200_75_80"
+  # SegNet_hands_alltracksseed100ckpt21_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_alltracksseed100ckpt21_seed200_100_80"
+
+  
+
+  # SegNet_hands_tsc0.5_cls1_ckpt30_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc0.5_cls1_ckpt30_seed0_50_80"
+  # SegNet_hands_tsc2_cls1_ckpt24_shuffle_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc2_cls1_ckpt24_shuffle_seed0_75_80"
+  # SegNet_hands_tsc2_cls1_ckpt24_shuffle_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_tsc2_cls1_ckpt24_shuffle_seed0_100_80"
+
+  # SegNet_hands_nomask_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_seed0_50_80"
+  # SegNet_hands_nomask_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_seed0_75_80"
+  # SegNet_hands_nomask_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_seed0_100_80"
+  # SegNet_hands_nomask_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_seed100_50_80"
+  # SegNet_hands_nomask_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_seed100_75_80"
+  # SegNet_hands_nomask_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_seed100_100_80"
+  # SegNet_hands_nomask_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_seed200_50_80"
+  # SegNet_hands_nomask_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_seed200_75_80"
+  # SegNet_hands_nomask_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nomask_seed200_100_80"
+
+  # SegNet_hands_symmwlossmask_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmwlossmask_seed0_50_80"
+  # SegNet_hands_symmwlossmask_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmwlossmask_seed0_75_80"
+  # SegNet_hands_symmwlossmask_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmwlossmask_seed0_100_80"
+  # SegNet_hands_symmwlossmask_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmwlossmask_seed100_50_80"
+  # SegNet_hands_symmwlossmask_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmwlossmask_seed100_75_80"
+  # SegNet_hands_symmwlossmask_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmwlossmask_seed100_100_80"
+  # SegNet_hands_symmwlossmask_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmwlossmask_seed200_50_80"
+  # SegNet_hands_symmwlossmask_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmwlossmask_seed200_75_80"
+  # SegNet_hands_symmwlossmask_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmwlossmask_seed200_100_80"
+
+  # SegNet_hands_symmnolossmask_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmnolossmask_seed0_50_80"
+  # SegNet_hands_symmnolossmask_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmnolossmask_seed0_75_80"
+  # SegNet_hands_symmnolossmask_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmnolossmask_seed0_100_80"
+  # SegNet_hands_symmnolossmask_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmnolossmask_seed100_50_80"
+  # SegNet_hands_symmnolossmask_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmnolossmask_seed100_75_80"
+  # SegNet_hands_symmnolossmask_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmnolossmask_seed100_100_80"
+  # SegNet_hands_symmnolossmask_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmnolossmask_seed200_50_80"
+  # SegNet_hands_symmnolossmask_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmnolossmask_seed200_75_80"
+  # SegNet_hands_symmnolossmask_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_symmnolossmask_seed200_100_80"
+
+  # SegNet_hands_center_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_center_seed0_50_80"
+  # SegNet_hands_center_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_center_seed0_75_80"
+  # SegNet_hands_center_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_center_seed0_100_80"
+  # SegNet_hands_center_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_center_seed100_50_80"
+  # SegNet_hands_center_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_center_seed100_75_80"
+  # SegNet_hands_center_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_center_seed100_100_80"
+  # SegNet_hands_center_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_center_seed200_50_80"
+  # SegNet_hands_center_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_center_seed200_75_80"
+  # SegNet_hands_center_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_center_seed200_100_80"
+
+  # SegNet_hands_noobject_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_noobject_seed0_50_80"
+  # SegNet_hands_noobject_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_noobject_seed0_75_80"
+  # SegNet_hands_noobject_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_noobject_seed0_100_80"
+  # SegNet_hands_noobject_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_noobject_seed100_50_80"
+  # SegNet_hands_noobject_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_noobject_seed100_75_80"
+  # SegNet_hands_noobject_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_noobject_seed100_100_80"
+  # SegNet_hands_noobject_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_noobject_seed200_50_80"
+  # SegNet_hands_noobject_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_noobject_seed200_75_80"
+  # SegNet_hands_noobject_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_noobject_seed200_100_80"
+
+  # SegNet_hands_nocontact_seed0_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nocontact_seed0_50_80"
+  # SegNet_hands_nocontact_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nocontact_seed0_75_80"
+  # SegNet_hands_nocontact_seed0_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nocontact_seed0_100_80"
+  # SegNet_hands_nocontact_seed100_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nocontact_seed100_50_80"
+  # SegNet_hands_nocontact_seed100_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nocontact_seed100_75_80"
+  # SegNet_hands_nocontact_seed100_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nocontact_seed100_100_80"
+  # SegNet_hands_nocontact_seed200_50: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nocontact_seed200_50_80"
+  # SegNet_hands_nocontact_seed200_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nocontact_seed200_75_80"
+  # SegNet_hands_nocontact_seed200_100: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nocontact_seed200_100_80"
+
+  
+  # SegNet_hands_noobject_seed0_50_old: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNet_hands_noobject_seed0_50_80"
+  # SegNet_hands_noobject_seed0_75_old: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNet_hands_noobject_seed0_75_80"
+  # SegNet_hands_noobject_seed0_100_old: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNet_hands_noobject_seed0_100_80"
+  # SegNet_hands_noobject_seed100_50_old: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNet_hands_noobject_seed100_50_80"
+  # SegNet_hands_noobject_seed100_75_old: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNet_hands_noobject_seed100_75_80"
+  # SegNet_hands_noobject_seed100_100_old: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNet_hands_noobject_seed100_100_80"
+  # SegNet_hands_noobject_seed200_50_old: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNet_hands_noobject_seed200_50_80"
+  # SegNet_hands_noobject_seed200_75_old: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNet_hands_noobject_seed200_75_80"
+  # SegNet_hands_noobject_seed200_100_old: "/home/mohit/VOS/interaction-hotspots/src_aroundwobj/inferred_IHdata/epic_benchmark_hand_YCB/SegNet_hands_noobject_seed200_100_80"

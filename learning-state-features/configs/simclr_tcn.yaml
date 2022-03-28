@@ -1,0 +1,22 @@
+model:
+  emb_size: 512 
+  dropout: 0.4
+  batchnorm: False 
+  backbone: "resnet18"
+
+data:
+  bs: 256 
+  nw: 8 
+  sampler: weighted
+  maxlen: 100
+  minlen: 8
+  tcn: True
+  suffix: ioumf
+
+training:
+  lr: 0.0001
+  num_epochs: 200 
+  num_batches: 512 
+  log_interval: 1
+  ckpt_interval: 10
+  resume: False 

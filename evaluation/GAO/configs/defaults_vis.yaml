@@ -1,0 +1,3 @@
+imdir: "./data/test_new"
+methods:
+  SegNet_hands_nosupckpt27_seed0_75: "/home/mohit/VOS/epic-affordances/training/inferred_IHdata/GAO_benchmark/SegNet_hands_nosupckpt27_seed0_75_80"

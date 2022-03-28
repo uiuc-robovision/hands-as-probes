@@ -1,0 +1,18 @@
+data:
+  bs: 256
+  nw: 2
+  filter: {'object': [carrot, potato, knife, spoon, fork, fridge, microwave/oven, drawer, bottle, jar, cupboard, egg, onion]}
+
+training:
+  decay: 0.001
+  num_epochs: 25
+  num_batches: 10
+  replace: True
+  log_interval: 1
+  ckpt_interval: 1
+  resume: False
+  # sample_opposite: 1
+
+model:
+  emb_size: 512
+

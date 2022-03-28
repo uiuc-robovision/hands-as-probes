@@ -1,0 +1,25 @@
+model:
+  emb_size: 512 
+  dropout: 0.4
+  batchnorm: False 
+  backbone: "resnet18"
+
+data:
+  bs: 256
+  nw: 8
+  maxlen: 100
+  minlen: 0
+  minlen_hands: 4
+  filter_on_hands: True
+  suffix: ioumf
+
+training:
+  lr: 0.0001
+  num_epochs: 200 
+  num_batches: 512 
+  log_interval: 1
+  ckpt_interval: 10
+  resume: False
+  
+  add_hand_appearance: True
+  add_hand_motion: True

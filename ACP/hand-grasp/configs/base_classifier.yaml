@@ -1,0 +1,18 @@
+data:
+  bs: 128
+  nw: 6
+  dir: /home/mohit/VOS/epic-affordances/ACP/datasets/GUN71_crops
+  key: grasp
+  # filter: {'grasp': ['G01', 'G02', 'G03', 'G04', 'G05']}
+
+training:
+  lr: 0.0001 # 0.0001 for ftune True
+  decay: 0.05
+  num_epochs: 100
+  num_batches: 32
+  replace: True
+  log_interval: 1
+  ckpt_interval: 3
+  save_after: 1
+  resume: False
+  max_epochs_before_impr: 30

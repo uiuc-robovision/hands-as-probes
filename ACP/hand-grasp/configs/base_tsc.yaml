@@ -1,0 +1,39 @@
+model:
+  emb_size: 128
+  loss_emb_size: 128
+  temperature: 0.1
+  headbnorm: True
+
+data:
+  bs: 128
+  nw: 6
+  key: grasp
+  dir: /home/mohit/VOS/epic-affordances/ACP/datasets/GUN71_crops
+  # filter: {'grasp': ['G01', 'G02', 'G03', 'G04', 'G05']}
+  EPIC:
+    imsize: 128
+    min_track_len: 15
+    right_only: True
+    window: 10
+    test_p: ["P01", "P08", "P11", "P02", "P32", "P18", "P04", "P09", "P03"]
+    # EPIC_dir: "/data01/mohit/Track-Hands/output/hoa_tracks-sahilpartitioned_128_split"
+    # EPIC_dir: "/data01/mohit/Track-Hands/output/hoa_tracks-mohitthreshold_split"
+    # EPIC_dir: "/data01/mohit/Track-Hands/output/temp_tracks_0.8_128_split/"
+    # EPIC_dir: "/data01/mohit/Track-Hands/output/original_tracks_0.8_128_split"
+    EPIC_dir: "/data01/mohit/Track-Hands/output/partitioned_tracks_0.8_128_split"
+    # EPIC_dir: "/data01/mohit/Track-Hands/output/hoa_tracks-mohitthresholdnofilt_0.8_128_split"
+    # EPIC_dir: "/data01/mohit/Track-Hands/output/hoa_tracks-mohitthresholdnofilt_0.8_128_split"
+
+training:
+  lr: 0.0001 # 0.0001 for ftune True
+  decay: 0.05
+  num_epochs: 60
+  num_batches: 64 # original 128 for experiments in paper
+  replace: True
+  log_interval: 1
+  ckpt_interval: 3
+  save_after: 1
+  resume: False
+  max_epochs_before_impr: 20
+  class_w: 1.0
+  tsc_w: 1.0

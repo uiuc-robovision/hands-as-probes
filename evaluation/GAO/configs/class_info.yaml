@@ -1,0 +1,15 @@
+easy_classes:
+  names: ["Large Diameter", "Small Diameter", "Medium Wrap", "Adducted Thumb", "Light Tool",
+          "Prismatic 4 Finger", "Prismatic 3 Finger", "Prismatic 2 Finger", "Palmar Pinch",
+          "Power Disk", "Power Sphere", "Precision Disk", "Precision Sphere", "Tripod", "Fixed Hook",
+          "Lateral", "Index Finger Extension", "Extension Type", "Distal", "Writing Tripod", "Tripod Variation",
+          "Parallel Extension", "Adduction Grip", "Tip Pinch", "Lateral Tripod", "Sphere 4-Finger", "Quadpod",
+          "Sphere 3-Finger", "Stick", "Palmar", "Ring", "Ventral", "Inferior Pincer"
+          ]
+  classes: ["G01", "G02", "G03", "G04", "G05",
+            "G06", "G07", "G08", "G09", "G10",
+            "G11", "G12", "G13", "G14", "G15",
+            "G16", "G17", "G18", "G19", "G20",
+            "G21", "G22", "G23", "G24", "G25",
+            "G26", "G27", "G28", "G29", "G30",
+            "G31", "G32", "G33"]
