@@ -4,6 +4,8 @@
 [Mohit Goyal](https://mohit1997.github.io/), [Sahil Modi](https://www.linkedin.com/in/sahil-modi/), [Rishabh Goyal](https://www.linkedin.com/in/rishgoyell/), [Saurabh Gupta](http://saurabhg.web.illinois.edu) <br/>
 University of Illinois at Urbana-Champaign<br/>
 
+[\[Project Page\]](https://s-gupta.github.io/hands-as-probes/index.html) [\[Arxiv\]](https://arxiv.org/pdf/2112.09120.pdf)
+
 <strong>Abstract:</strong> Interactive object understanding, or what we can do to objects and how is a long-standing goal of computer vision. In this paper, we tackle this problem through observation of human hands in in-the-wild egocentric videos. We demonstrate that observation of what human hands interact with and how can provide both the relevant data and the necessary supervision. Attending to hands, readily localizes and stabilizes active objects for learning and reveals places where interactions with objects occur. Analyzing the hands shows what we can do to objects and how. We apply these basic principles on the EPIC-KITCHENS dataset, and successfully learn state-sensitive features, and object affordances (regions of interaction and afforded grasps), purely by observing hands in egocentric videos.
 
 ## Motivation
