@@ -1,6 +1,6 @@
 # Human Hands as Probes for Interactive Object Understanding
 
-### CVPR 2021
+### CVPR 2022
 [Mohit Goyal](https://mohit1997.github.io/), [Sahil Modi](https://www.linkedin.com/in/sahil-modi/), [Rishabh Goyal](https://www.linkedin.com/in/rishgoyell/), [Saurabh Gupta](http://saurabhg.web.illinois.edu) <br/>
 University of Illinois at Urbana-Champaign<br/>
 
